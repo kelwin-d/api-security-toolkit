@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  api-security-toolkit:
+    build: ./api-security-toolkit
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./api-security-toolkit:/app
+    restart: always
