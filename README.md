@@ -15,16 +15,16 @@ This project is a lightweight **FastAPI-based API Security Toolkit** designed to
 
 ## 🛠️ Installation
 1. Clone the repository:
-
+   ```bash
    git clone https://github.com/kelwin-d/api-security-toolkit.git
    cd api-security-toolkit
 
 2. Install dependencies:
-
+   ```bash
    pip install fastapi uvicorn python-jose
 
 3. Run the application:
-
+   ```bash
    uvicorn security_toolkit:app --reload
 
 ## 🔐 Endpoints
